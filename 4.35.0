@@ -1,0 +1,38 @@
+Collecting transformers
+  Downloading transformers-4.57.3-py3-none-any.whl.metadata (43 kB)
+Collecting filelock (from transformers)
+  Downloading filelock-3.20.0-py3-none-any.whl.metadata (2.1 kB)
+Collecting huggingface-hub<1.0,>=0.34.0 (from transformers)
+  Downloading huggingface_hub-0.36.0-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: numpy>=1.17 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from transformers) (2.3.5)
+Requirement already satisfied: packaging>=20.0 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from transformers) (25.0)
+Collecting pyyaml>=5.1 (from transformers)
+  Downloading pyyaml-6.0.3-cp313-cp313-win_amd64.whl.metadata (2.4 kB)
+Requirement already satisfied: regex!=2019.12.17 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from transformers) (2025.11.3)
+Requirement already satisfied: requests in b:\oss\ai-generated content detection system\venv\lib\site-packages (from transformers) (2.32.5)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers)
+  Downloading tokenizers-0.22.1-cp39-abi3-win_amd64.whl.metadata (6.9 kB)
+Collecting safetensors>=0.4.3 (from transformers)
+  Downloading safetensors-0.7.0-cp38-abi3-win_amd64.whl.metadata (4.2 kB)
+Requirement already satisfied: tqdm>=4.27 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from transformers) (4.67.1)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.34.0->transformers)
+  Downloading fsspec-2025.10.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from huggingface-hub<1.0,>=0.34.0->transformers) (4.15.0)
+Requirement already satisfied: colorama in b:\oss\ai-generated content detection system\venv\lib\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Requirement already satisfied: charset_normalizer<4,>=2 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from requests->transformers) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from requests->transformers) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from requests->transformers) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in b:\oss\ai-generated content detection system\venv\lib\site-packages (from requests->transformers) (2025.11.12)
+Downloading transformers-4.57.3-py3-none-any.whl (12.0 MB)
+   ---------------------------------------- 12.0/12.0 MB 5.3 MB/s eta 0:00:00
+Downloading huggingface_hub-0.36.0-py3-none-any.whl (566 kB)
+   ---------------------------------------- 566.1/566.1 kB 7.3 MB/s eta 0:00:00
+Downloading tokenizers-0.22.1-cp39-abi3-win_amd64.whl (2.7 MB)
+   ---------------------------------------- 2.7/2.7 MB 6.7 MB/s eta 0:00:00
+Downloading fsspec-2025.10.0-py3-none-any.whl (200 kB)
+Downloading pyyaml-6.0.3-cp313-cp313-win_amd64.whl (154 kB)
+Downloading safetensors-0.7.0-cp38-abi3-win_amd64.whl (341 kB)
+Downloading filelock-3.20.0-py3-none-any.whl (16 kB)
+Installing collected packages: safetensors, pyyaml, fsspec, filelock, huggingface-hub, tokenizers, transformers
+
+Successfully installed filelock-3.20.0 fsspec-2025.10.0 huggingface-hub-0.36.0 pyyaml-6.0.3 safetensors-0.7.0 tokenizers-0.22.1 transformers-4.57.3
